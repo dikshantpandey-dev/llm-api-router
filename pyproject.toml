@@ -1,4 +1,14 @@
-﻿[project]
+[project]
 name = "llm-api-router"
-version = "0.0.1"
+version = "0.1.0"
+description = "Policy-based router for Azure OpenAI, OpenAI-compatible, and local LLM providers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Dikshant Pandey"}]
 
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
