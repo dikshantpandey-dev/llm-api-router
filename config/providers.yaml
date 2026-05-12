@@ -1,0 +1,17 @@
+providers:
+  - name: local-fast
+    model: deterministic-mini
+    type: local
+    latency_ms: 80
+    input_cost_per_million: 0.02
+    output_cost_per_million: 0.06
+  - name: local-balanced
+    model: deterministic-balanced
+    type: local
+    latency_ms: 180
+    input_cost_per_million: 0.05
+    output_cost_per_million: 0.20
+  - name: azure-openai
+    model: ${AZURE_OPENAI_CHAT_DEPLOYMENT}
+    type: azure
+    optional: true
