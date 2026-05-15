@@ -1,0 +1,41 @@
+[
+  {
+    "selected_provider": "local-fast",
+    "selected_model": "deterministic-mini",
+    "priority": "cost",
+    "latency_ms": 80,
+    "estimated_cost_usd": 1e-06,
+    "prompt": "Summarize a Nepali RAG benchmark result in two bullet points.",
+    "text": "[deterministic-mini] Summarize a Nepali RAG benchmark result in two bullet points.",
+    "provider": "local-fast",
+    "model": "deterministic-mini",
+    "prompt_tokens": 10,
+    "completion_tokens": 11
+  },
+  {
+    "selected_provider": "local-fast",
+    "selected_model": "deterministic-mini",
+    "priority": "latency",
+    "latency_ms": 80,
+    "estimated_cost_usd": 1e-06,
+    "prompt": "Classify whether a retrieval answer is grounded in citations.",
+    "text": "[deterministic-mini] Classify whether a retrieval answer is grounded in citations.",
+    "provider": "local-fast",
+    "model": "deterministic-mini",
+    "prompt_tokens": 9,
+    "completion_tokens": 10
+  },
+  {
+    "selected_provider": "local-reasoning",
+    "selected_model": "deterministic-o3-mini",
+    "priority": "balanced",
+    "latency_ms": 350,
+    "estimated_cost_usd": 1.2e-05,
+    "prompt": "Plan a research experiment comparing embedding models.",
+    "text": "[deterministic-o3-mini] Plan a research experiment comparing embedding models.",
+    "provider": "local-reasoning",
+    "model": "deterministic-o3-mini",
+    "prompt_tokens": 7,
+    "completion_tokens": 8
+  }
+]
