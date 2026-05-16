@@ -1,0 +1,4 @@
+selected_provider,selected_model,priority,latency_ms,estimated_cost_usd,prompt,text,provider,model,prompt_tokens,completion_tokens
+local-fast,deterministic-mini,cost,80,1e-06,Summarize a Nepali RAG benchmark result in two bullet points.,[deterministic-mini] Summarize a Nepali RAG benchmark result in two bullet points.,local-fast,deterministic-mini,10,11
+local-fast,deterministic-mini,latency,80,1e-06,Classify whether a retrieval answer is grounded in citations.,[deterministic-mini] Classify whether a retrieval answer is grounded in citations.,local-fast,deterministic-mini,9,10
+local-reasoning,deterministic-o3-mini,balanced,350,1.2e-05,Plan a research experiment comparing embedding models.,[deterministic-o3-mini] Plan a research experiment comparing embedding models.,local-reasoning,deterministic-o3-mini,7,8
