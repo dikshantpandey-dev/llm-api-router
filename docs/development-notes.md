@@ -2,5 +2,5 @@
 
 Project: LLM API router
 
-Development checkpoint 1 for matching code, demo, tests, and generated artifacts.
+Development checkpoint 2 for matching code, demo, tests, and generated artifacts.
 
